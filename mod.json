@@ -1,0 +1,11 @@
+{
+  "folium": 1,
+  "id": "musicfree-subscriptions",
+  "name": "音源订阅器",
+  "version": "1.0.0",
+  "author": "VSAA Music",
+  "description": "MusicFree 插件订阅加载器：在模组设置里添加订阅链接（如万象数据 index.json），自动拉取插件清单并注册为 Folia 在线音源。支持搜索、播放、歌词。",
+  "client": "client.mjs",
+  "permissions": ["net.fetch"],
+  "experimental": ["omni.providers"]
+}
